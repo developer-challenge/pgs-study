@@ -31,8 +31,7 @@
 - Issue 내용
 
   ```text
-  {문제 링크}
-  문제 구분
+  - [ ] {문제 링크} | 문제 구분
   ```
 
 - `gh example`
@@ -41,8 +40,11 @@
   gh issue create
   title: [HojinAn] 2월 4주차
   body:
-    https://school.programmers.co.kr/learn/courses/30/lessons/42583
-    스택/큐
+    - [ ] https://school.programmers.co.kr/learn/courses/30/lessons/42583 | 스택/큐
+    - [ ] https://school.programmers.co.kr/learn/courses/30/lessons/12987 | Summer/Winter Coding(~2018)
+    - [ ] https://school.programmers.co.kr/learn/courses/30/lessons/42579 | 해시
+    - [ ] https://school.programmers.co.kr/learn/courses/30/lessons/42839 | 완전탐색
+    - [ ] https://school.programmers.co.kr/learn/courses/30/lessons/12979 | Summer/Winter Coding(~2018)
   metadata: assignees - HojinAn
   ```
 
