@@ -8,16 +8,14 @@ class Solution {
         boolean flag = true;
         char ch = words[0].charAt(words[0].length()-1);
         list.add(words[0]);
-        int loc = 0;
         int cnt = 1;
 
         for(int i=2;i<=words.length;i++){
             String word = words[i-1];
-            loc = i%n;
 
             if(ch != word.charAt(0) || list.contains(word)){
-                if(loc == 0)answer[0] = n;
-                else answer[0] = loc;
+                if(i%n == 0)answer[0] = n;
+                else answer[0] = i%n;
                 answer[1] = cnt;
 
                 flag = false;
